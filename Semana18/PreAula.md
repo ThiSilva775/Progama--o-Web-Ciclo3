@@ -1,0 +1,15 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Gerenciadores de Banco de Dados 
+Dev: Thiago Silva Soares 
+DATA: 02/07/2023
+
+A metodologia dos 12 fatores é uma abordagem para o desenvolvimento de aplicações modernas que foi proposta por Adam Wiggins em 2011. Essa metodologia estabelece um conjunto de princípios e boas práticas para o desenvolvimento de aplicações baseadas em serviços, com foco na escalabilidade, flexibilidade e portabilidade. Os principais objetivos da metodologia dos 12 fatores são:
+
+Facilitar a implantação e o escalonamento da aplicação: A metodologia incentiva a construção de aplicações que podem ser facilmente implantadas em qualquer ambiente de execução e escalonadas de forma horizontal, ou seja, adicionando mais instâncias da aplicação em vez de aumentar a capacidade de uma única instância.
+Promover a portabilidade e a independência de ambientes: Os fatores estabelecidos pela metodologia visam reduzir o acoplamento da aplicação com o ambiente de execução, permitindo que a mesma seja executada de forma consistente em diferentes plataformas, como ambientes de desenvolvimento, testes e produção.
+Possibilitar a integração contínua e a entrega contínua (CI/CD): A metodologia dos 12 fatores incentiva a utilização de práticas de integração contínua e entrega contínua, tornando a implantação e a atualização da aplicação um processo automatizado e confiável.
+Isolar as dependências: A metodologia propõe que as dependências externas, como bibliotecas de terceiros e serviços, sejam declaradas e isoladas do código da aplicação. Isso ajuda a garantir que a aplicação seja autocontida e não dependa de configurações ou recursos específicos do ambiente em que está sendo executada.
+Gerenciar a configuração através de variáveis de ambiente: A metodologia recomenda que a configuração da aplicação seja armazenada em variáveis de ambiente, permitindo que a mesma seja facilmente modificada sem a necessidade de alterar o código fonte. Isso facilita o gerenciamento das configurações em diferentes ambientes e garante a separação das configurações sensíveis do código.
+Tratar os logs como fluxo de eventos: A metodologia estabelece que os logs gerados pela aplicação devem ser tratados como fluxo de eventos e não como arquivos estáticos. Isso facilita a análise dos logs em tempo real e permite que as informações relevantes sejam enviadas para ferramentas de monitoramento ou análise de dados.
+Priorizar processos stateless: A metodologia incentiva a construção de aplicações stateless, onde cada requisição é tratada de forma isolada, sem armazenar informações de estado no servidor. Isso facilita o escalonamento horizontal da aplicação e evita problemas de consistência de estado.
+Esses são alguns dos principais objetivos da metodologia dos 12 fatores. Seguir esses princípios pode ajudar a criar aplicações mais robustas, escaláveis e fáceis de gerenciar em ambientes modernos de desenvolvimento e implantação.
